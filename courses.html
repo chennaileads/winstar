@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+
+<!-- Mirrored from html.vecurosoft.com/toddly/demo/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Nov 2025 06:05:50 GMT -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>
+   Winstar Academy
+  </title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="robots" content="">
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Favicons - Place favicon.ico in the root directory -->
+ <link rel="icon" href="assets/img/new/favicon.ico" type="image/png">
+
+
+  <!--==============================
+	  Google Fonts
+	============================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&amp;family=Baloo+2:wght@400..800&amp;family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+  <!--==============================
+	    All CSS File
+	============================== -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Fontawesome Icon -->
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+  <!-- Slick Slider -->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+  <!-- animate css -->
+  <link rel="stylesheet" href="assets/css/animate.min.css">
+  <!-- Theme Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+ .floating-contact {
+  position: fixed;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9999;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Buttons */
+.contact-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+  font-size: 22px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+}
+
+.whatsapp { background: #176835; }
+.call { background: #c62828; }
+
+/* Floating Enquiry Box */
+.enquiry-float {
+  position: fixed;
+  right: 20px;
+  width: 260px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  z-index: 9999;
+    display: none;
+}
+/* Form */
+.enquiry-float form h4 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.enquiry-float input,
+.enquiry-float textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.enquiry-btn {
+  width: 100%;
+  background: #e63946;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.enquiry-btn:hover {
+  background: #c92f3c;
+}
+</style>
+</head>
+
+<body>
+  
+<div class="floating-contact">
+  <!-- WhatsApp -->
+  <a href="https://wa.me/919092064703" target="_blank" class="contact-btn whatsapp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Call -->
+  <button class="contact-btn call" id="callToggle">
+    <i class="fas fa-envelope"></i>
+  </button>
+
+  <!-- Enquiry Form -->
+  <div class="enquiry-float" id="enquiryBox">
+  <form>
+    <h4>Quick Enquiry</h4>
+
+    <input type="text" placeholder="Name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="tel" placeholder="Phone" required>
+    <textarea placeholder="Message" rows="3" required></textarea>
+
+    <button type="submit" class="enquiry-btn">Submit</button>
+  </form>
+</div>
+
+</div>
+
+  <div class="vs-menu-wrapper">
+    <div class="vs-menu-area text-center">
+      <div class="mobile-logo">
+  <a href="index.html"><img src="assets/img/new/logo.png" alt="Toddly" width="80px" class="logo"></a>
+        <button class="vs-menu-toggle">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+    
+      <div class="vs-mobile-menu">
+        <ul>
+          <li class="menu-item-has-children">
+            <a class="vs-svg-assets" href="index.html">
+              Home
+            
+            </a>
+            
+          </li>
+            <li class="menu-item-has-children">
+            <a class="vs-svg-assets" href="courses.html">
+      Courses
+            
+            </a>
+            
+          </li>
+            <li class="menu-item-has-children">
+            <a class="vs-svg-assets" href="contact.html">
+              Contact 
+            
+            </a>
+            
+          </li>
+          
+        </ul>
+      </div>
+      <div class="px-20 py-20">
+        <div class="sidemenu-contact style2">
+          <ul>
+            <li>
+              <a href="tel:+919092064703" class="sidemenu-link"> +91 90920 64703</a>
+            </li>
+        
+           
+          </ul>
+        </div>
+        <div class="footer-social mb-20">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+       
+          <a href="https://www.instagram.com/winstaracademyarcot/?utm_source=ig_web_button_share_sheet"><i class="fab fa-instagram"></i></a>
+          
+        </div>
+       
+      </div>
+    </div>
+  </div>
+ 
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <header class="vs-header">
+    <!-- Header Element -->
+    <div class="vs-balls"></div>
+    <!-- Header Top -->
+    <div class="vs-header__top">
+      <div class="container container--custom">
+        <div class="row align-items-center justify-content-between gy-1 text-center text-lg-start">
+          <div class="col-lg-auto d-none d-lg-block">
+            <div class="d-flex align-items-center flex-wrap gap-4">
+              <div class="vs-header__info">
+                <i class="fa-solid fa-phone-volume"></i>
+                <span> Phone : <a href="tel:+919092064703"> +91 90920 64703</a></span>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-lg-auto">
+            <div class="social-style">
+              <span class="social-style__label">follow us :</span>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/winstaracademyarcot/?utm_source=ig_web_button_share_sheet"><i class="fab fa-instagram"></i></a>
+       
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sticky-wrapper">
+      <div class="sticky-active">
+        <div class="container container--custom">
+          <div class="row justify-content-between align-items-center">
+            <div class="col">
+              <div class="vs-header__logo">
+                <a href="index.html"><img src="assets/img/new/logo.png" alt="Toddly" width="80px" class="logo"></a>
+              </div>
+            </div>
+            <div class="col-auto">
+              <nav class="main-menu d-none d-lg-block">
+                <ul>
+                  <li class="menu-item-has-children">
+                    <a class="vs-svg-assets" href="index.html">
+                      Home
+                       <svg xmlns="http://www.w3.org/2000/svg" width="87" height="31" viewBox="0 0 87 31" fill="none">
+                        <path d="M0 4.14031C0 1.87713 1.87602 0.0646902 4.13785 0.142684L83.1379 2.86682C85.2921 2.94111 87 4.70896 87 6.86445V25.0909C87 27.2642 85.2647 29.0399 83.0919 29.0898L4.09193 30.9059C1.84739 30.9575 0 29.1521 0 26.907V4.14031Z" fill="#70167E"></path>
+                      </svg>
+                    </a>
+                  
+                  </li>
+                     <li class="menu-item-has-children">
+                    <a class="vs-svg-assets" href="courses.html">
+                    Courses
+                       <svg xmlns="http://www.w3.org/2000/svg" width="87" height="31" viewBox="0 0 87 31" fill="none">
+                        <path d="M0 4.14031C0 1.87713 1.87602 0.0646902 4.13785 0.142684L83.1379 2.86682C85.2921 2.94111 87 4.70896 87 6.86445V25.0909C87 27.2642 85.2647 29.0399 83.0919 29.0898L4.09193 30.9059C1.84739 30.9575 0 29.1521 0 26.907V4.14031Z" fill="#70167E"></path>
+                      </svg>
+                    </a>
+                  
+                  </li>
+                     <li class="menu-item-has-children">
+                    <a class="vs-svg-assets" href="contact.html">
+                    Contact
+                       <svg xmlns="http://www.w3.org/2000/svg" width="87" height="31" viewBox="0 0 87 31" fill="none">
+                        <path d="M0 4.14031C0 1.87713 1.87602 0.0646902 4.13785 0.142684L83.1379 2.86682C85.2921 2.94111 87 4.70896 87 6.86445V25.0909C87 27.2642 85.2647 29.0399 83.0919 29.0898L4.09193 30.9059C1.84739 30.9575 0 29.1521 0 26.907V4.14031Z" fill="#70167E"></path>
+                      </svg>
+                    </a>
+                  
+                  </li>
+                  <li class="menu-item-get-started">
+    <a class="get-started-btn" href="contact.html">Get Started</a>
+</li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-auto">
+              <div class="vs-header__action">
+                <div class="d-none d-md-inline-flex align-items-center">
+                  <!-- <button class="searchBoxTggler">
+                    <i class="far fa-search"></i>
+                  </button> -->
+                </div>
+                <div class="d-none d-xxl-inline-flex">
+             
+                </div>
+                <!-- <div class="d-none d-lg-inline-flex align-items-center">
+                  <button class="sideMenuToggler">
+                    <svg width="31" height="23" viewBox="0 0 31 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2.9165 4.5H28.4165C29.6594 4.5 30.6665 3.49292 30.6665 2.25C30.6665 1.00708 29.6594 0 28.4165 0H2.9165C1.67358 0 0.666504 1.00708 0.666504 2.25C0.666504 3.49292 1.67358 4.5 2.9165 4.5Z" fill="currentColor" />
+                      <path d="M28.4165 9H2.9165C1.67358 9 0.666504 10.0071 0.666504 11.25C0.666504 12.4929 1.67358 13.5 2.9165 13.5H28.4165C29.6594 13.5 30.6665 12.4929 30.6665 11.25C30.6665 10.0071 29.6594 9 28.4165 9Z" fill="currentColor" />
+                      <path d="M28.4165 18H2.9165C1.67358 18 0.666504 19.0071 0.666504 20.25C0.666504 21.4929 1.67358 22.5 2.9165 22.5H28.4165C29.6594 22.5 30.6665 21.4929 30.6665 20.25C30.6665 19.0071 29.6594 18 28.4165 18Z" fill="currentColor" />
+                    </svg>
+                  </button>
+                </div> -->
+                <button class="vs-menu-toggle style2 d-inline-block d-lg-none">
+                  <i class="fal fa-bars"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+   <div class="breadcrumb-wrapper z-index-common overflow-hidden">
+    <div class="vs-balls vs-balls--screen" data-balls-bottom="-6px" data-balls-color="#ffffff"></div>
+    <div class="breadcrumb-wrapper__bg wow animate__fadeInUp" data-wow-delay="0.15s" data-vs-gsap-parallax-speed="2" data-vs-gsap-parallax-zoom>
+      <img src="assets/img/bg/breadcrumb-bg-3.jpg" alt="session bg">
+    </div>
+    <div class="container">
+      <div class="breadcrumb-wrapper__content wow animate__fadeInUp" data-wow-delay="0.45s">
+        <h1 class="breadcrumb-wrapper__title">Courses</h1>
+        <div class="breadcrumb-wrapper__menu--wrap">
+          <ul class="breadcrumb-wrapper__menu">
+            <li class="breadcrumb-wrapper__menu--item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-wrapper__menu--item">Courses</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div><section class="vs-class--area bg-color6 space space-extra-bottom overflow-hidden">
+    <div class="container">
+      
+        <div class="row">
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="vs-time vs-time--class vs-image-effect wow animate__fadeInUp" data-wow-delay="0.25s">
+                    <figure class="vs-time__figure">
+                        <a class="vs-time__image--link" href="#">
+                            <img class="vs-time__image vs-time__image vs-image-effect__image" src="assets/img/new/TUITION.webp" alt="Tuition">
+                            <div class="vs-image-effect__overlay"></div>
+                        </a>
+                       
+                    </figure>
+                    <div class="vs-time__content">
+                        <h3 class="vs-time__heading">
+                            <a href="#">Tuition: LKG - 12th STD</a>
+                        </h3>
+                        <p>Comprehensive academic support is provided for students from LKG up to 12th Standard, covering all subjects for both **CBSE** and **STATE BOARD** curricula with experienced faculty.</p>
+                        <div class="vs-time__features">
+                            
+                        </div>
+                        <hr class="vs-time__divider">
+                        <div class="vs-time__footer">
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="vs-time vs-time--class vs-image-effect wow animate__fadeInUp" data-wow-delay="0.35s">
+                    <figure class="vs-time__figure">
+                        <a class="vs-time__image--link" href="#">
+                            <img class="vs-time__image vs-time__image vs-image-effect__image" src="assets/img/new/ab2.jpeg" alt="Abacus">
+                            <div class="vs-image-effect__overlay"></div>
+                        </a>
+                       
+                    </figure>
+                    <div class="vs-time__content">
+                        <h3 class="vs-time__heading">
+                            <a href="#">Abacus Training</a>
+                        </h3>
+                        <p>Enhance mental calculation speed and accuracy through our Abacus training program, designed to boost concentration, memory, and overall brain development in young learners.</p>
+                        <div class="vs-time__features">
+                            
+                        </div>
+                        <hr class="vs-time__divider">
+                        <div class="vs-time__footer">
+                            <div class="vs-time__teacher">
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="vs-time vs-time--class vs-image-effect wow animate__fadeInUp" data-wow-delay="0.45s">
+                    <figure class="vs-time__figure">
+                        <a class="vs-time__image--link" href="#">
+                            <img class="vs-time__image vs-time__image vs-image-effect__image" src="assets/img/new/hoindi.jpg" alt="Hindi">
+                            <div class="vs-image-effect__overlay"></div>
+                        </a>
+                        
+                    </figure>
+                    <div class="vs-time__content">
+                        <h3 class="vs-time__heading">
+                            <a href="#">Hindi Exam Level Preparation</a>
+                        </h3>
+                        <p>Dedicated coaching for various Hindi proficiency and examination levels, focusing on reading, writing, grammar, and conversation skills required to excel in formal language exams.</p>
+                        <div class="vs-time__features">
+                            
+                        </div>
+                        <hr class="vs-time__divider">
+                        <div class="vs-time__footer">
+                            <div class="vs-time__teacher">
+                               
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="vs-time vs-time--class vs-image-effect wow animate__fadeInUp" data-wow-delay="0.55s">
+                    <figure class="vs-time__figure">
+                        <a class="vs-time__image--link" href="#">
+                            <img class="vs-time__image vs-time__image vs-image-effect__image" src="assets/img/new/drawing.webp" alt="Drawing">
+                            <div class="vs-image-effect__overlay"></div>
+                        </a>
+                     
+                    </figure>
+                    <div class="vs-time__content">
+                        <h3 class="vs-time__heading">
+                            <a href="#">Drawing & Sketching</a>
+                        </h3>
+                        <p>Unleash creativity through structured Drawing classes covering foundational techniques, sketching, and coloring to help students express their imagination and develop fine motor skills.</p>
+                        <div class="vs-time__features">
+                           
+                        </div>
+                        <hr class="vs-time__divider">
+                        <div class="vs-time__footer">
+                            <div class="vs-time__teacher">
+                               
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="vs-time vs-time--class vs-image-effect wow animate__fadeInUp" data-wow-delay="0.65s">
+                    <figure class="vs-time__figure">
+                        <a class="vs-time__image--link" href="#">
+                            <img class="vs-time__image vs-time__image vs-image-effect__image" src="assets/img/new/westeren.jpg" alt="Dance">
+                            <div class="vs-image-effect__overlay"></div>
+                        </a>
+               
+                    </figure>
+                    <div class="vs-time__content">
+                        <h3 class="vs-time__heading">
+                            <a href="#">Western Dance</a>
+                        </h3>
+                        <p>Explore movement and rhythm with specialized classes in both **Western**  dance forms, focusing on technique, expression, and physical discipline for all age groups.</p>
+                        <div class="vs-time__features">
+                        
+                        </div>
+                        <hr class="vs-time__divider">
+                        <div class="vs-time__footer">
+                            <div class="vs-time__teacher">
+                               
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="vs-time vs-time--class vs-image-effect wow animate__fadeInUp" data-wow-delay="0.75s">
+                    <figure class="vs-time__figure">
+                        <a class="vs-time__image--link" href="#">
+                            <img class="vs-time__image vs-time__image vs-image-effect__image" src="assets/img/new/flut.jpg" alt="Flute">
+                            <div class="vs-image-effect__overlay"></div>
+                        </a>
+               
+                    </figure>
+                    <div class="vs-time__content">
+                        <h3 class="vs-time__heading">
+                            <a href="#">Flute Instruction</a>
+                        </h3>
+                        <p>Learn the beautiful art of playing the Flute. Our music classes cover basic fingering, breath control, and proper technique to help students master this expressive instrument.</p>
+                        <div class="vs-time__features">
+                           
+                        </div>
+                        <hr class="vs-time__divider">
+                        <div class="vs-time__footer">
+                            <div class="vs-time__teacher">
+                               
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="vs-time vs-time--class vs-image-effect wow animate__fadeInUp" data-wow-delay="0.85s">
+                    <figure class="vs-time__figure">
+                        <a class="vs-time__image--link" href="#">
+                            <img class="vs-time__image vs-time__image vs-image-effect__image" 
+                            src="assets/img/veena1.png" alt="Veena">
+                            <div class="vs-image-effect__overlay"></div>
+                        </a>
+                      
+                    </figure>
+                    <div class="vs-time__content">
+                        <h3 class="vs-time__heading">
+                            <a href="#">Veena Classes</a>
+                        </h3>
+                        <p>Master the Veena, one of the most ancient and revered Indian string instruments. Our instruction covers traditional finger techniques, composition, and raga fundamentals.</p>
+                        <div class="vs-time__features">
+                           
+                        </div>
+                        <hr class="vs-time__divider">
+                        <div class="vs-time__footer">
+                            <div class="vs-time__teacher">
+                              
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="vs-time vs-time--class vs-image-effect wow animate__fadeInUp" data-wow-delay="0.95s">
+                    <figure class="vs-time__figure">
+                        <a class="vs-time__image--link" href="#">
+                            <img class="vs-time__image vs-time__image vs-image-effect__image" src="assets/img/new/carnatic.webp" alt="Carnatic Music">
+                            <div class="vs-image-effect__overlay"></div>
+                        </a>
+                     
+                    </figure>
+                    <div class="vs-time__content">
+                        <h3 class="vs-time__heading">
+                            <a href="#">Carnatic Music (Vocal)</a>
+                        </h3>
+                        <p>Learn the principles of South Indian classical music. Our vocal classes focus on *sruti*, *raga*, and *tala*, offering a strong foundation in this rich musical tradition.</p>
+                        <div class="vs-time__features">
+                           
+                        </div>
+                        <hr class="vs-time__divider">
+                        <div class="vs-time__footer">
+                            <div class="vs-time__teacher">
+                     
+                                  
+                                </a>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+    <div class="vs-time vs-time--class vs-image-effect wow animate__fadeInUp" data-wow-delay="0.95s">
+        <figure class="vs-time__figure">
+            <a class="vs-time__image--link" href="#">
+                <img class="vs-time__image vs-time__image vs-image-effect__image"
+                 src="assets/img/robotic.png" alt="Otomatiks Robotics">
+                <div class="vs-image-effect__overlay"></div>
+            </a>
+        </figure>
+
+        <div class="vs-time__content">
+            <h3 class="vs-time__heading">
+                <a href="#">Otomatiks Robotics</a>
+            </h3>
+
+            <p>
+               Our Otomatiks Robotics
+                 program helps students learn the basics of robot building, coding, sensors,
+                  and electronics while developing creativity, logical thinking, and problem-solving
+                   skills.
+            </p>
+
+            <div class="vs-time__features">
+                <!-- optional feature list -->
+            </div>
+
+            <hr class="vs-time__divider">
+
+            <div class="vs-time__footer">
+                <div class="vs-time__teacher">
+                    <!-- optional teacher info -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="col-lg-4 col-md-6">
+    <div class="vs-time vs-time--class vs-image-effect wow animate__fadeInUp" data-wow-delay="0.95s">
+        <figure class="vs-time__figure">
+            <a class="vs-time__image--link" href="#">
+                <img class="vs-time__image vs-time__image vs-image-effect__image"
+                 src="assets/img/chess.webp" alt="Chess Class">
+                <div class="vs-image-effect__overlay"></div>
+            </a>
+        </figure>
+
+        <div class="vs-time__content">
+            <h3 class="vs-time__heading">
+                <a href="#">Chess Classes </a>
+            </h3>
+
+            <p>
+                Develop strategic thinking and problem-solving skills through our engaging chess classes. Students will learn game strategies, tactical moves, opening principles, and endgame techniques while improving concentration and decision-making abilities.
+            </p>
+
+            <div class="vs-time__features">
+            </div>
+
+            <hr class="vs-time__divider">
+
+            <div class="vs-time__footer">
+                <div class="vs-time__teacher">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="col-lg-4 col-md-6">
+    <div class="vs-time vs-time--class vs-image-effect wow animate__fadeInUp" data-wow-delay="0.95s">
+        <figure class="vs-time__figure">
+            <a class="vs-time__image--link" href="#">
+                <img class="vs-time__image vs-time__image vs-image-effect__image"
+                 src="assets/img/carrom.webp" alt="Carrom Class">
+                <div class="vs-image-effect__overlay"></div>
+            </a>
+        </figure>
+
+        <div class="vs-time__content">
+            <h3 class="vs-time__heading">
+                <a href="#">Carrom Board Classes </a>
+            </h3>
+
+            <p>
+                Improve focus, precision, and strategic thinking through our Carrom classes. Students will learn proper striking techniques, board control, and game strategies while enjoying this classic indoor sport in a fun and competitive environment.
+            </p>
+
+            <div class="vs-time__features">
+            </div>
+
+            <hr class="vs-time__divider">
+
+            <div class="vs-time__footer">
+                <div class="vs-time__teacher">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-lg-4 col-md-6">
+    <div class="vs-time vs-time--class vs-image-effect wow animate__fadeInUp" data-wow-delay="0.95s">
+        <figure class="vs-time__figure">
+            <a class="vs-time__image--link" href="#">
+                <img class="vs-time__image vs-time__image vs-image-effect__image" 
+                src="assets/img/spoken.jpg" alt="Spoken English Class">
+                <div class="vs-image-effect__overlay"></div>
+            </a>
+        </figure>
+
+        <div class="vs-time__content">
+            <h3 class="vs-time__heading">
+                <a href="#">Spoken English Classes</a>
+            </h3>
+
+            <p>
+                Improve your communication skills and confidence with our Spoken English classes. Students will learn correct pronunciation, vocabulary, sentence formation, and everyday conversation through interactive activities and practical exercises.
+            </p>
+
+            <div class="vs-time__features">
+            </div>
+
+            <hr class="vs-time__divider">
+
+            <div class="vs-time__footer">
+                <div class="vs-time__teacher">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+        <div class="vs-pagination justify-content-center">
+            </div>
+    </div>
+</section>
+ 
+  
+  <div class="vs-footer bg-title">
+    <div class="vs-footer__top z-index-common space-extra-top space-extra-bottom">
+      <img src="assets/img/footer/footer-element-1.png" alt="Footer Element" class="vs-footer__ele1 wow animate__fadeInLeft" data-wow-delay="0.25s">
+      <img src="assets/img/footer/footer-element-2.png" alt="Footer Element" class="vs-footer__ele2">
+      <img src="assets/img/footer/footer-element-3.png" alt="Footer Element" class="vs-footer__ele3 wow animate__fadeInRight" data-wow-delay="0.35s">
+      <div class="vs-balls vs-balls--screen" data-balls-top="-6px" data-balls-color="#ffffff"></div>
+      <div class="container">
+        <div class="row gy-4 gx-xxl-5">
+          <div class="col-lg-4 col-md-6 wow animate__fadeInUp" data-wow-delay="0.25s">
+            <div class="vs-footer__widget">
+              <div class="vs-footer__logo text-center text-md-start mb-25">
+                <a href="index.html" class="vs-footer__logo-link">
+                <h3 class="vs-footer__title">About</h3>
+                </a>
+              </div>
+              <p class="vs-footer__desc text-center text-md-start">
+              Winstar Academy functions as a comprehensive educational centre with a tuition division and an integrated play school (My Chhota School).
+              </p>
+              <div class="icon-call justify-content-center justify-content-md-start pt-10 mb-10">
+                <span class="icon-call__icon"><i class="fa-solid fa-phone-rotary"></i></span>
+                <div class="icon-call__content">
+                  <span class="icon-call__title">call support</span>
+                  <a href="tel:+919092064703" class="icon-call__number">  +91 90920 64703</a>
+                </div>
+              </div>
+              <div class="social-style social-style--version2 w-100 justify-content-center justify-content-md-start pt-25">
+                <span class="social-style__label">follow us :</span>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/winstaracademyarcot/?utm_source=ig_web_button_share_sheet"><i class="fab fa-instagram"></i></a>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow animate__fadeInUp" data-wow-delay="0.35s">
+            <div class="vs-footer__widget">
+              <h3 class="vs-footer__title">Quick Links</h3>
+              <div class="vs-footer__menu">
+                <ul class="vs-footer__menu--list">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="courses.html">Courses</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                 
+                </ul>
+              
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow animate__fadeInUp" data-wow-delay="0.35s">
+    <div class="vs-footer__widget">
+        <h3 class="vs-footer__title">Contact</h3>
+        
+        
+        <div class="vs-widget-contact">
+            <p>
+                <i class="fas fa-phone-alt"></i> <a style="color: white;" href="tel:+919092064703">+91 90920 64703</a>
+            </p>
+            <p>
+                <i class="fas fa-phone-alt"></i> <a style="color: white;" href="tel:+919443084441">+91 94430 84441</a>
+            </p>
+          
+              <p>
+                <i class="fas fa-map-marker-alt"></i> <a style="color: white;" href="#">No. 34, Second Floor (opp) Govt. Girls Hr. Sec. School, Vellore Main Road, Arcot - 632 503.</a>
+            </p>
+            </div>
+        
+    </div>
+</div>
+          
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="vs-footer__bottom bg-theme-color-1">
+      <div class="container">
+        <div class="row gy-3 gx-5 align-items-center justify-content-center justify-content-lg-between flex-column-reverse flex-lg-row">
+          <div class="col-md-auto">
+            <p class="vs-footer__copyright mb-0">
+  Copyright © <span class="year"></span>
+  <a href="#">Winstar Academy</a>. All Rights Reserved. Developed By
+  <a href="https://chennaileads.com/" target="_blank" rel="noopener noreferrer">
+    Chennai Leads
+  </a>.
+</p>
+          </div>
+          <div class="col-md-auto">
+           
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+  <!--********************************
+			Back To Top  
+	******************************** -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to Top">
+    <span class="progress-circle">
+      <svg viewBox="0 0 100 100">
+        <circle class="bg" cx="50" cy="50" r="40"></circle>
+        <circle class="progress" cx="50" cy="50" r="40"></circle>
+      </svg>
+      <span class="progress-percentage" id="progressPercentage">0%</span>
+    </span>
+  </button>
+  <!--********************************
+			Code End  Here 
+	******************************** -->
+  <!--==============================
+        All Js File
+    ============================== -->
+  <!-- Jquery -->
+  <script>
+  document.querySelectorAll(".year").forEach(el => {
+    el.textContent = new Date().getFullYear();
+  });
+</script>
+  <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- WOW.js Animation -->
+  <script src="assets/js/wow.min.js"></script>
+  <!-- Magnific Popup -->
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <!-- GSAP -->
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="assets/js/ScrollTrigger.min.js"></script>
+  <script src="assets/js/gsap-scroll-to-plugin.js"></script>
+  <script src="assets/js/SplitText.js"></script>
+  <script src="assets/js/lenis.min.js"></script>
+  <!-- Swiper Slider -->
+  <script src="assets/js/swiper-bundle.js"></script>
+  <!-- Main Js File -->
+  <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+  const toggleBtn = document.getElementById("callToggle");
+  const enquiryBox = document.getElementById("enquiryBox");
+
+  toggleBtn.addEventListener("click", () => {
+    enquiryBox.style.display =
+      enquiryBox.style.display === "block" ? "none" : "block";
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".floating-contact")) {
+      enquiryBox.style.display = "none";
+    }
+  });
+  toggleBtn.addEventListener("click", () => {
+  enquiryBox.classList.toggle("show");
+});
+</script>
+</body>
+
+
+<!-- Mirrored from html.vecurosoft.com/toddly/demo/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Nov 2025 06:05:50 GMT -->
+</html>
