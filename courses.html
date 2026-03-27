@@ -116,6 +116,33 @@
 .enquiry-btn:hover {
   background: #c92f3c;
 }
+	  	  .logo-wrap {
+  display: flex;
+  align-items: center;   /* vertically align */
+  gap: 10px;             /* space between logo & text */
+  text-decoration: none;
+}
+
+.logo {
+  width: 60px;           /* slightly controlled size */
+}
+
+.logo-text h1 {
+  font-size: 20px;       /* slightly smaller */
+  margin: 0;
+  line-height: 1.2;
+}
+
+.logo-text h1 span {
+  display: block;        /* puts "Academy" below */
+  font-size: 20px;
+}
+
+.sub-text {
+  font-size: 12px;
+  margin: 2px 0 0;
+  color: #666;
+}
 </style>
 </head>
 
@@ -211,7 +238,7 @@
   </div>
   
   
-  <header class="vs-header">
+   <header class="vs-header">
     <!-- Header Element -->
     <div class="vs-balls"></div>
     <!-- Header Top -->
@@ -230,9 +257,10 @@
           </div>
 			 <div class="col-lg-auto">
             <div class="social-style">
-              <span class="social-style__label">TUITION FOR LKG TO 12TH STANDARD STUDENTS
-(CBSE & MATRIC – ALL SUBJECTS)
-Safe Place To Learn!                                                                                  Best Place To Develop!
+                <span class="social-style__label" style="display:block; text-align:center;">
+  TUITION FOR LKG TO 12TH STANDARD STUDENTS
+  (CBSE & MATRIC – ALL SUBJECTS)<br/>
+  Safe Place To Learn! Best Place To Develop!
 </span>
              
        
@@ -255,7 +283,16 @@ Safe Place To Learn!                                                            
           <div class="row justify-content-between align-items-center">
             <div class="col">
               <div class="vs-header__logo">
-                <a href="index.html"><img src="assets/img/new/logo.png" alt="Toddly" width="80px" class="logo"> Winstar Academy</a>
+               <a href="index.html" class="logo-wrap">
+    <img src="assets/img/new/logo.png" alt="Toddly" class="logo">
+
+    <div class="logo-text">
+        <h1 class="vs-hero__title--main">
+            WinStar <span>Academy</span>
+        </h1>
+        <p class="sub-text">TNHB, Phase-1, Arcot.</p>
+    </div>
+</a>
               </div>
             </div>
             <div class="col-auto">
@@ -766,13 +803,13 @@ Safe Place To Learn!                                                            
             <p>
                 <i class="fas fa-phone-alt"></i> <a style="color: white;" href="tel:+919443034441">+91 94430 34441</a>
             </p>
-          
+          <p>
+                <i class="fas fa-map-marker-alt"></i> <a style="color: white;" href="#"> No. 390, Main Road, (Near Vinayagar Temple) TNHB, Phase - 1, Arcot - 632 503.</a>
+            </p>
               <p>
                 <i class="fas fa-map-marker-alt"></i> <a style="color: white;" href="#">No. 34, Second Floor (opp) Govt. Girls Hr. Sec. School, Vellore Main Road, Arcot - 632 503.</a>
             </p>
-			 <p>
-                <i class="fas fa-map-marker-alt"></i> <a style="color: white;" href="#"> No. 390, Main Road, (Near Vinayagar Temple) TNHB, Phase - 1, Arcot - 632 503.</a>
-            </p>
+			 
             </div>
         
     </div>
